@@ -1,3 +1,21 @@
-h1 {
-    color: brown;
+.contrainer {
+    line-height: 30px;
+}
+h2 {
+    font-size: xx-large;
+}
+input {
+    height: 20px;
+    width: 200px;
+    background-color: aliceblue;
+    
+}
+li {
+    padding-left: 30px;
+    font-size: 18px;
+}
+button {
+    background-color: beige;
+    height: 30px;
+    width: 100px;
 }
