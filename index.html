@@ -8,18 +8,23 @@
     <title>BT5</title>
 </head>
 <body>
-    <div class="contrainer"> 
-        <h2>To Do List</h2>
-        <input type="text" placeholder="Add Conntend here" class="text-add"> Add
-        <li>Go througt DataFlair's JavaScript totorials</li>
-        <li>Practise the code</li>
-        <li>Read a book on javaScript</li>
-        <li>Organise my note</li>
-        <li>Create JavaScript Project</li>
-        <li>Take quiz</li>
-        <li>Prepare for interview question</li>
-        <button>Clear Items</button>
-    </div>
+    <div class="container">
+        <h3>To Do List</h3>
+        <div id="myDiv" class="header">
+            <input type="text" name="" id="myInput" placeholder="Add content here">
+            <button onclick="newElement()">Add</button>
+ 
+            <ul id="myUL">
+                <li>Go throuh DataFlair's JavaScript tutorials</li>
+                <li>Practise the codes</li>
+                <li>Read a book on JavaScript</li>
+                <li>Organise my notes</li>
+                <li>Create JavaScript project</li>
+                <li>Take quiz</li>
+                <li>Prepare for interview question</li>
+            </ul>
+            <button id="clear">Clear Items</button>
+        </div>
     
 </body>
 </html>
